@@ -1,3 +1,9 @@
 # eagle
+Coming soon...
+Bypass AntiVm Techniques (Working...)
 
-Bypass AntiVm Techniques
+Bypass Anti VirtualMachine Techniques 
+
+Bypass Anti VirtualBox Techniques 
+
+Bypass Anti Cuckoo Sandbox Techniques 
