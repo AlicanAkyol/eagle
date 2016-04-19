@@ -12,7 +12,7 @@
 
 ###Bypass Anti VirtualMachine Techniques (Working on)
 
-When cuckoo_detection.exe what is in https://github.com/AlicanAkyol/sems is run in Vmware, result is shown below(Win7 - 64 bit):
+When cuckoo_detection.exe what is in https://github.com/AlicanAkyol/sems is run in Vmware, result is shown below(Win7 - 64 bit):<br />
 ![alt tag](https://github.com/AlicanAkyol/sems/blob/master/vmware_normal.png)
 
 If eagle what will be uploaded here is run in Vmware, cuckoo_detection's result is show below(Win7 - 64 bit):
