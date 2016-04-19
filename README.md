@@ -2,18 +2,13 @@
 #Bypass AntiVm Techniques (Working...)
 
 ###How To Use It?
-1- This command should run in your vm.
-  - python eagle.py
-2- Your vm will be restarted automatically. After restarting your vm, you should close your vm and this command should run in your host machine.
-  - python eagle.py -c "Your Vm's .vmx file path"
-3- This command should run in your vm.
-  - python eagle.py -v
+  - This command should run in your vm -> python eagle.py
+  - Your vm will be restarted automatically. After restarting your vm, you should close your vm and this command should run in your host machine -> python eagle.py -c "Your Vm's .vmx file path"
+  - This command should run in your vm -> python eagle.py -v
 
 ###Requirements
-import wmi
-  - https://pypi.python.org/pypi/WMI/
-import pywin32
-  - https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
+  - import wmi -> https://pypi.python.org/pypi/WMI/
+  - import pywin32 -> https://sourceforge.net/projects/pywin32/files/pywin32/Build%20220/
 
 ###Bypass Anti VirtualMachine Techniques (Working on)
 
