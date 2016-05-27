@@ -6,8 +6,7 @@
   - When your vm is closed, run below command in your host machine. <br />-> python eagle.py -c "Your Vm's .vmx file path"
   - Start your vm and run below command in your vm. <br />-> python eagle.py
   - After restart your vm, run below command in your vm. <br />-> python eagle.py -v
-  - 
-**IMPORTANT:** windows 7
+**IMPORTANT : ** windows 7
 
 ###Requirements
   - import wmi <br />-> https://pypi.python.org/pypi/WMI/
