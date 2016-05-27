@@ -2,9 +2,12 @@
 #Bypass AntiVm Techniques (Working...)
 
 ###How To Use It?
-  - This command should run in your vm <br />-> python eagle.py
-  - Your vm will be restarted automatically. After restarting your vm, you should close your vm and this command should run in your host machine <br />-> python eagle.py -c "Your Vm's .vmx file path"
-  - This command should run in your vm <br />-> python eagle.py -v
+
+  - When your vm is closed, run below command in your host machine. <br />-> python eagle.py -c "Your Vm's .vmx file path"
+  - Start your vm and run below command in your vm. <br />-> python eagle.py
+  - After restart your vm, run below command in your vm. <br />-> python eagle.py -v
+  - 
+**IMPORTANT:** windows 7
 
 ###Requirements
   - import wmi <br />-> https://pypi.python.org/pypi/WMI/
@@ -15,7 +18,7 @@
 When cuckoo_detection.exe what is in https://github.com/AlicanAkyol/sems is run in Vmware, result is shown below(Win7 - 64 bit):<br />
 ![alt tag](https://github.com/AlicanAkyol/sems/blob/master/vmware_normal.png)
 
-If eagle what will be uploaded here is run in Vmware, cuckoo_detection's result is show below(Win7 - 64 bit):<br />
+When eagle is run in Vmware, result is show below(Win7 - 64 bit):<br />
 ![alt tag](https://github.com/AlicanAkyol/eagle/blob/master/VmwareEagle.png)
 
 ###Bypass Anti VirtualBox Techniques (In progress)
